@@ -1,0 +1,91 @@
+ul{
+    margin: 0;
+}
+ol{
+    margin: 0;
+}
+.center{
+    width: 100%;
+    /*height:607px;*/
+    height: 522px;
+}
+.center img{
+    vertical-align: top;
+}
+.center .center_left{
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 522px;background: red;
+}
+.center .center_left ul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.center .center_right{
+    float: left;
+    width: 50%;
+    height: 522px;
+position: relative;
+    text-align: center;
+}
+.center .center_right ul {
+
+    height: 522px;
+    width: 100%;
+}
+.center .center_right ul li{
+    height: 522px;
+    width: 100%;
+    position: absolute;    background: url("../images/d1.jpg");
+    top: 0;
+    left: 0;
+}
+.center .center_right ul li h1{
+    color: white;
+    font-weight: bold; font-size: 30px;
+    width: 100%;
+    margin-top: 100px;
+}
+.center .center_right b{
+    display: block;
+ width: 50px;
+    height: 40px;
+    background: red;
+    margin-left: 455px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.cen{
+    width: 100%;
+    height: 85px;
+    background: #d1a854;
+}
+.cen .ce{
+    width: 1200px;
+    height: 85px;
+    margin: auto;
+}
+.cen .ce li{
+    float: left;
+    width: 400px;
+    height: 85px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 85px;
+    color: white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    cursor: pointer;
+}
+.cen .ce ul>.cur{
+    background: white;
+    color: #3b200a;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 1s;
+}

@@ -1,0 +1,102 @@
+.xwzx{
+    width: 100%;
+    height:700px;
+    background: url("../images/xwzx.jpg") no-repeat;
+}
+.xwz{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+}
+.xwz_left{
+    float: left;
+    width: 300px;
+    height:620px;
+    margin-top: 40px;
+    background: rgba(191,176,143,.6);
+}
+.xwz_left h1{
+    width: 100%;
+    height: 28px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.xwz_left ul li {
+    width: 100%;
+    height: 38px;position: relative;
+    line-height: 38px;
+}
+.xwz_left ul li a{
+    display: block;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+.xwz_left ul li>.x{
+    width: 19px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    background: url("../images/nemu_jt.png") no-repeat;
+    display: none;
+}
+.xwz_left ul li:hover {
+    background: #d1a854;
+}
+.xwz_left ul li:hover a{
+    text-decoration: none;
+}
+.xwz_right{
+    float: left;
+    width: 810px;
+    height: 620px;
+    margin-top: 40px;
+    background: white;
+}
+.xwz_right .xwz_right_top{
+    display: block;
+    width: 810px;
+    height: 20px;
+}
+.xwz_right .xwz_right_top ul{
+    width: 200px;
+    height: 20px;
+    float: right;
+}
+.xwz_right .xwz_right_top ul li{
+    float: left;
+}
+.xwz_right .xwz_right_top ul li a{
+    color: #6c6c6c;
+}
+.xwz_right .xwz_right_top ul li a:hover{
+    color:  #d1a854;
+    transition: all 1s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.xwz_right_center{
+    width: 800px;
+    height: 520px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.xwz_right_center span{
+    font-family: 宋体, SimSun;
+    font-size: 18px;
+    color:#8e671a;
+}
+.xwz_right_center p{
+    font-size: 13px;
+    color: #656565;
+    line-height: 1.8;
+}
+
+
+
+

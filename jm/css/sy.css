@@ -1,0 +1,352 @@
+/*======lb部分=======*/
+.lb{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.lb li img{
+    width: 1920px;
+    height: 500px;
+    vertical-align: top;
+}
+.lb li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ne{
+    position: absolute;
+    width: 62px;
+    height: 113px;
+    background: url("../images/nex.png") no-repeat;
+    right: 0;
+    top: 200px;
+    overflow: hidden;
+}
+.ne:hover{
+    background-position: 0  -113px;
+    transition:all 1S;
+}
+.pre{
+    position: absolute;
+    width: 62px;
+    height: 113px;
+    background: url("../images/pre.png") no-repeat;
+    left: 0;
+    top: 200px;
+    overflow: hidden;
+}
+.pre:hover{
+    background-position: 0  -113px;
+    transition:all 1S;
+ }
+
+p{
+    position: absolute;
+    left: 48%;
+    bottom: 20px;
+    width: 130px;
+    height: 30px;
+}
+p span{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #d1a854;
+    margin:10px 10px 0 0;
+}
+.lb p .cu{
+    background:#d1a854;
+}
+/*======jny部分=======*/
+.jn{
+    width: 100%;
+    height: 140px;
+    background: #f5f5f5;
+}
+.jny{
+    width: 1200px;
+    height: 140px;
+    margin: auto;
+    line-height: 120px;
+}
+.j{
+    float: left;
+    width: 400px;
+    height:140px;
+}
+.j img{
+    float: left;
+    width: 96px;
+    height:90px;
+    margin-top: 25px;
+}
+.j span{
+    color: #d1a854;
+    font-size: 30px;
+}
+.n{
+    float: left;
+    width: 400px;
+    height:140px;
+}
+.n img{
+    float: left;
+    width: 130px;
+    height:90px;
+    margin-top: 25px;
+}
+.n span{
+    color: #d1a854;
+    font-size: 30px;
+}
+.y{
+    float: left;
+    width: 400px;
+    height:140px;
+}
+.y img{
+    float: left;
+    width: 84px;
+    height:90px;
+    margin-top: 25px;
+}
+.y span{
+    color: #d1a854;
+    font-size: 30px;
+}
+.cx{
+    width: 1200px;
+    height:400px;
+    margin:25px auto;
+}
+.c{
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+.c h1{
+    width: 100%;
+    height:25px;
+    font-size: 20px;
+    margin: 0;
+}
+.c h1 strong{
+    padding:8px 10px;
+    background: rgba(233,233,233,.6);
+    float: right;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.c ul{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #d1a854;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.c ul li{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.c ul li span{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    color:#d1a854;
+    font-size: 15px;
+}
+.c ul li b{
+    width: 100%;
+    float: left;
+    font-weight: normal;
+}
+.c ul li img{
+    width: 210px;
+    height: 180px;
+}
+.x{
+    float: left;
+    width: 460px;
+    height: 400px;
+    margin-left: 70px;
+    position: relative;
+}
+.x h1{
+    width: 100%;
+    height:25px;
+    font-size: 20px;
+    margin: 0;
+}
+.x h1 a{
+    float: right;
+    font-size: 15px;
+}
+.x>ul{
+    width: 460px;
+    height: 180px;
+    margin-top: 20px;
+    position: relative;
+}
+.x>ul li{
+    width: 460px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.x>ul li a .title{
+    width: 460px;
+    height: 40px;
+    background:rgba(81,74,78,.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.x>ul li img{
+    width: 460px;
+    height: 180px;
+}
+.x  p{
+    position: absolute;
+    left: 10px;
+    top: 190px;
+    width: 130px;
+    height: 30px;
+}
+.x  p span{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #d1a854;
+    margin:10px 10px 0 0;
+    background: white;
+}
+.x  p .ys{
+    background: #d1a854;
+}
+.x .x_lm{
+    width: 460px;
+    height: 110px;
+}
+.x .x_lm ul{
+    width: 460px;
+    height: 100px;
+    margin-top: 10px;
+}
+.x .x_lm ul li{
+    width: 460px;
+    height:35px ;
+    border-bottom:1px dotted gainsboro ;
+    line-height: 35px;
+}
+.x .x_lm ul li i{
+  padding: 1px;
+    font-size: 2px;
+    background: red;
+    color: white;
+}
+.x .x_lm ul li span{
+    float: right;
+}
+.x .x_lm ul li a{
+    color: black;
+}
+.x .x_lm ul li:hover{
+    color:#d1a854;
+}
+.x .x_lm ul li:hover a{
+    color:#d1a854;
+    text-decoration: none;
+}
+.x1{
+    float: right;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.x1 h1{
+    width: 100%;
+    height:25px;
+    margin: 0;
+}
+.x1>ul{
+    margin-top: 20px;
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+.x1>ul>li img{
+    width: 300px;
+    height: 180px;
+}
+.x1>ul>li {
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#zs_l{
+    padding:20px 10px;
+    background:rgba(81,74,78,.6);
+    position: absolute;
+    left: 0;
+    top: 95px;
+    cursor: pointer;
+}
+#zs_r{
+    padding:20px 10px;
+    background:rgba(81,74,78,.6);
+    position: absolute;
+    right: 0;
+    top: 95px;
+    cursor: pointer;
+}
+.x1 .qyry{
+    width: 300px;
+    height: 110px;
+}
+.x1 .qyry ul{
+    width: 300px;
+    height: 110px;
+}
+.x1 .qyry ul>li{
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    margin-top: 15px;
+    line-height: 40px;
+}
+.x1 .qyry ul>li a{
+    padding-left: 10px;
+    font-size: 17px;
+    color:#d1a854 ;
+}
+.x1 .qyry ul>li:hover a{
+    color: red;
+}
+.x1 .qyry ul li i{
+    float: right;
+    font-size: 25px;
+    color:#d1a854 ;
+    padding-right: 20px;
+}
+.x1 .qyry ul li b{
+    float: right;
+    font-size: 25px;
+    color:#d1a854 ;
+    padding-right: 20px;
+    display: none;
+}

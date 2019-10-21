@@ -1,0 +1,229 @@
+.xwzx{
+    width: 100%;
+    height: 924px;
+    background: url("../images/xwzx.jpg") no-repeat;
+}
+.xwz{
+    width: 1200px;
+    height: 924px;
+    margin: auto;
+}
+.xwz_left{
+    float: left;
+    width: 300px;
+    height: 844px;
+    margin-top: 40px;
+    background: rgba(191,176,143,.6);
+}
+.xwz_left h1{
+    width: 100%;
+    height: 28px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.xwz_left ul li {
+    width: 100%;
+    height: 38px;position: relative;
+    line-height: 38px;
+}
+.xwz_left ul li a{
+    display: block;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+.xwz_left ul li>.x{
+    width: 19px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    background: url("../images/nemu_jt.png") no-repeat;
+    display: none;
+}
+.xwz_left ul li:hover {
+    background: #d1a854;
+}
+.xwz_left ul li:hover a{
+    text-decoration: none;
+}
+.xwz_right{
+    float: left;
+    width: 810px;
+    height: 844px;
+    margin-top: 40px;
+    background: white;
+}
+.xwz_right .xwz_right_top{
+    display: block;
+    width: 810px;
+    height: 20px;
+}
+.xwz_right .xwz_right_top ul{
+    width: 200px;
+    height: 20px;
+    float: right;
+}
+.xwz_right .xwz_right_top ul li{
+    float: left;
+}
+.xwz_right .xwz_right_top ul li a{
+    color: #6c6c6c;
+}
+.xwz_right .xwz_right_top ul li a:hover{
+    color:  #d1a854;
+    transition: all 1s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.zbcg{
+    width: 790px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.zbcg .zbcg_left{
+    float: left;
+    width: 300px;
+    height: 170px;
+}
+.zbcg .zbcg_left img{
+    width: 300px;
+    height: 160px;
+}
+.zbcg .zbcg_right{
+    float: left;
+    width: 440px;
+    height:180px;
+    margin-left: 20px;
+}
+.zbcg .zbcg_right h2{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c6c6c;
+}
+.zbcg .zbcg_right h2:hover{
+    color: #d1a854;
+    transition: all 0.3s;
+}
+.zbcg .zbcg_right .more{
+    width: 100px;
+    height: 28px;
+    border: 1px solid #8c8c8c;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 28px;
+}
+.zbcg .zbcg_right .more:hover{
+    color:#d1a854;
+    border: 1px solid #d1a854;
+}
+.zbcg .zbcg_right .more:hover a{
+    color:#d1a854;
+}
+.zbc{
+    width: 790px;
+    height: 530px;
+    margin-left: 20px;
+    position: relative;
+}
+.zbc ol{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 535px;
+   border: 1px solid #8c8c8c;
+}
+.zbc li{
+    width: 750px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #8c8c8c;
+}
+.zbc  p{
+    width:748px ;
+    padding-left: 50px;
+    line-height: 30px;
+    background: #b1b1b1;
+    display: none;
+}
+.zbc ol li:hover{
+     background:#b1b1b1;
+    font-weight: bold;
+    height: 50px;
+    border-bottom: 1px solid white;
+
+ }
+.zbc ol li:hover a{
+    color: #222222;
+    text-decoration: none;
+}
+.zbc ol li>span{
+    float: right;
+    padding-right: 20px;
+}
+.zbc ol li>a{
+    float: left;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.zbc ol li>i{
+    float: left;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.zbc ol li>b{
+    color: white;
+    line-height: 30px;
+    float: left;
+    padding: 0 10px;
+    display: none;
+}
+.zbc ol li:hover b{
+    color: white;
+}
+.zbcg .zbcg_right .more a{
+color: #8c8c8c;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.xwz_right_foot{
+    width: 810px;
+    height: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+.xwz_right_foot p{
+    width: 155px;
+    height: 30px;
+    margin: 20px 0 0 40%;
+}
+.xwz_right_foot p span{
+    float: left;
+    padding: 8px 14px;
+    margin-top: 2px;
+    border: 1px solid #6c6c6c;
+    color: #555555;
+}
+.xwz_right_foot p span:hover{
+    background:#d1a854;
+    color: white;
+}
+.xwz_right_foot p .sp{
+    background: #d1a854;
+    color: white;
+}
+.xwz_right_foot p strong{
+    padding: 12px;
+    border: 1px solid #6c6c6c;
+}
+.xwz_right_foot p strong:hover{
+    background:#d1a854;
+    color: white;
+}
